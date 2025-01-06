@@ -1,0 +1,32 @@
+.text 
+{
+  color: black;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  text-align: center;
+  font-weight:bold;
+}
+
+#websitename
+{
+	text-shadow:8px 8px 3px #7CFC00;
+	font-size:100px;
+	font-family:cooper black;
+	color:#006400;
+	text-align:center;
+	vertical-align:middle;
+}
+	
+#btnlist:hover
+{
+	color:blue;
+}
+
+#caption
+{
+	text-align:center;
+	color:blue;
+}

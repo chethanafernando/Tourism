@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html class="loading" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <title>SRI LANKA - The Wonder of Asia</title>
+	<!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.png">
+	
+	<!-- Font Awesome -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="Styles/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="Styles/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="Styles/components.css">
+    <link rel="stylesheet" type="text/css" href="Styles/horizontal-menu.css">
+	
+	<!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="Styles/style.css">
+	
+	<!-- Sweet Alert -->
+	<script src="https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body class="horizontal-layout horizontal-menu 2-columns  navbar-floating footer-static  " data-open="hover" data-menu="horizontal-menu" data-col="2-columns" style="background-color:forestgreen;">
+    <nav class="header-navbar navbar-expand-lg navbar navbar-with-menu navbar-fixed navbar-brand-left" style="height:120px;background-color:limegreen;">
+        <div class="navbar-header d-xl-block d-none">
+            <ul class="nav navbar-nav flex-row">
+                <li class="nav-item"><a class="navbar-brand" href="index.html">
+                    &nbsp;&nbsp;<img src="Images/Icon.png" width="120" height="170" class="brand-logo">&nbsp;&nbsp;<span id="websitename">SRI LANKA</span>
+				</li>
+            </ul>
+        </div>
+        <div class="navbar-wrapper">
+            <div class="navbar-container content"  style="top:-20px;">
+                <div class="navbar-collapse" id="navbar-mobile">
+                    <div class="mr-auto float-left bookmark-wrapper d-flex align-items-left" >
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item mobile-menu d-xl-none mr-auto"><a class="nav-menu-main menu-toggle hidden-xs" href="#"><i class="fa fa-bars" style="font-size:36px;color:blue;"></i><b style="font-size:30px;color:#006400;text-shadow:3px 3px 1px #7CFC00;">&nbsp;&nbsp;&nbsp;SRI LANKA</b></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="horizontal-menu-wrapper" style="top:120px;">
+        <div class="header-navbar navbar-expand-sm navbar navbar-horizontal floating-nav navbar-dark navbar-without-dd-arrow navbar-shadow menu-border" role="navigation" data-menu="menu-wrapper" >
+            <div class="navbar-header" >
+                <ul class="nav navbar-nav flex-row">
+                    <li class="nav-item mr-auto">
+						<a class="navbar-brand" href="index.php">
+                            <h2 class="brand-text mb-0" style="color:#006400;text-shadow:1px 1px 1px #7CFC00;text-align:left;">SRI LANKA</h2>
+                        </a>
+					</li>
+                    <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i class="fa fa-close" style="font-size:20px"></i><i class="toggle-icon feather icon-disc font-medium-4 d-none d-xl-block collapse-toggle-icon primary" data-ticon="icon-disc"></i></a></li>
+                </ul>
+            </div>
+            <div class="navbar-container main-menu-content" data-menu="menu-container" style="background-color:#006400;">
+                <ul class="nav navbar-nav" id="main-menu-navigation" data-menu="menu-navigation" style="float:center;">
+                    &nbsp;&nbsp;&nbsp;<li class="nav-item"><a href="index.html" style="background-color:#00FF00;border-radius:2px;font-size:30px;font-weight:bold;color:red;" onMouseOver="this.style.color='blue'" onMouseOut="this.style.color='red'"><i class="fa fa-home" style="font-size:30px;"></i><span data-i18n="Home">Home</span></a></li>
+					<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                    <li class="nav-item"><a href="gallery.html" style="background-color:#00FF00;border-radius:2px;font-size:30px;font-weight:bold;color:red;" onMouseOver="this.style.color='blue'" onMouseOut="this.style.color='red'"><i class="fa fa-image" style="font-size:30px;"></i><span data-i18n="Gallery">Gallery</span></a></li>
+					<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                    <li class="nav-item"><a href="cities.html" style="background-color:#00FF00;border-radius:2px;font-size:30px;font-weight:bold;color:red;" onMouseOver="this.style.color='blue'" onMouseOut="this.style.color='red'"><i class="fa fa-map-signs" style="font-size:30px;"></i><span data-i18n="Cities">Cities</span></a></li>
+					<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					<li class="nav-item"><a href="aboutus.html" style="background-color:#00FF00;border-radius:2px;font-size:30px;font-weight:bold;color:red;" onMouseOver="this.style.color='blue'" onMouseOut="this.style.color='red'"><i class="fa fa-address-card" style="font-size:30px;"></i><span data-i18n="About Us">About Us</span></a></li>
+					<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                    <li class="nav-item"><a href="contactus.html" style="background-color:#00FF00;border-radius:2px;font-size:30px;font-weight:bold;color:red;" onMouseOver="this.style.color='blue'" onMouseOut="this.style.color='red'"><i class="fa fa-phone-square" style="font-size:30px;"></i><span data-i18n="Contact Us">Contact Us</span></a></li>
+					<br>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- BEGIN: Content-->
+    <div class="app-content content" style="top:80px;" >
+        <div class="content-overlay"></div>
+        <div class="header-navbar-shadow"></div>
+        <div class="content-wrapper">
+            <div class="content-body">
+                <section id="content-types">
+                    <div class="row match-height">
+                        <div class="col-xl-12 col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h1>Contact Us</h1>
+                                </div>
+                                <div class="card-body">
+                                    <form class="form" action="" method="post">
+										<div class="form-body">
+											<div class="form-group">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" class="form-control" placeholder="Enter Your Name">
+											</div>
+											<div class="form-group">
+												<label for="email" >Email</label>
+												<input type="email" id="email" class="form-control" placeholder="Enter Your Email" name="email">
+											</div>
+											<div class="form-group">
+												<label for="number">Contact</label>
+												<input type="number" id="number" class="form-control" placeholder="Enter Your Contact Number" name="number">
+											</div>
+											<div class="form-group">
+												<label for="address">Address</label>
+												<input type="text" id="address" class="form-control" placeholder="Enter Your Address" name="address">
+											</div>
+											<div class="form-group">
+												<label for="message" >Message</label>
+												<textarea id="message" class="form-control" placeholder="Enter Message" name="message"></textarea>
+											</div>
+										</div>
+										<div class="form-actions" style="text-align:center;">
+											<button type="submit" class="btn btn-primary mr-1" id="btnsubmit"  name="submit-form">JOIN WITH US</button>
+										</div>
+									</form>
+									<a href="https://theculturetrip.com/asia/sri-lanka/articles/the-12-most-beautiful-spots-in-sri-lanka/" target="_blank">The Most Beautiful Places to Visit in Sri Lanka</a>
+                                </div>
+                            </div>
+						</div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
+    <!-- Bootstrap JS -->
+    <script src="Scripts/vendors.min.js"></script>
+    <script src="Scripts/app-menu.js"></script>
+    <script src="Scripts/app.js"></script>
+    <script src="Scripts/components.js"></script>
+	
+	<!-- Sweet Alert -->
+	<script>
+		$(document).ready(function () {		
+			$('#btnsubmit').on('click',function () {
+				{
+					swal({
+					  title: "Thanks for Join with Us!",
+					  text: "We will contact you soon. Have a nice day!",
+					  icon: "success",
+					  timer: 50000
+					});
+				}
+			});
+		});
+	</script>
+</body>
+</html>
